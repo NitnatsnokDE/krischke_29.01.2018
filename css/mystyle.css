@@ -1,0 +1,42 @@
+body, html {
+    height: 100%;
+  }
+ 
+ .picture {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    margin: 0;
+}
+
+
+ @media screen and (max-width: 300px){   
+    #change{      
+        content: url("../images/600x600.jpg");
+    } 
+}
+
+@media screen and (min-width: 300px) {      
+    #change{      
+       content: url("../images/imagemaptestmittel_01.jpg");
+     } 
+} 
+@media (min-width: 1200px){      
+      #change{        
+          content: url("../images/imagemaptestgroß_01.jpg");  
+             } 
+
+
+
+
+
+
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.position {
+    display: table;
+    margin: auto;
+}

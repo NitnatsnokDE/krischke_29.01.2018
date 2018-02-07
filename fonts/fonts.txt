@@ -1,0 +1,4 @@
+lato
+roboto 
+
+beide einbindbar über google fonts
